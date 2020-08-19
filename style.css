@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  background-color: #545452;
+}
+.jumbotron {
+    background-color:#FFFFFF !important; 
+}
+.jumbotron h1{
+    color: #FF4300;
+    font-family: 'verdana';
+    font-size: 24px;
+}
+
+.jumbotron button {
+  background-color: #0077D6;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  font-family: 'verdana';
+  font-size: 14px;
+ margin-bottom: 10px;
+
+}
+
+#posts {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.reddit-post {
+    text-decoration: none;
+    color:#0077D6;
+    font-family: 'verdana';
+  padding: 10px;
+  border: solid 1px #0077D6;
+  border-radius: 5px;
+  margin: 5px auto;
+  font-size: 14px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Reddit posts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="redditapi.js" defer></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron container text-center col-lg-9 col-lg-offset-9">
+        <h1>Top 100 posts from r/ProgrammerHumor</h1>
+        <form id="subreddit">
+            <button type="submit">See posts</button>
+        </form>
+        <div id="posts">
+        </div>
+    </div>
+
+</body>
+
+</html>
